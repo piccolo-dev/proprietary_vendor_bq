@@ -309,7 +309,8 @@ PRODUCT_COPY_FILES += \
 
 # Wifi
 PRODUCT_COPY_FILES += \
-    vendor/bq/piccolo/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app
+    vendor/bq/piccolo/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
+    vendor/bq/piccolo/proprietary/bin/wcnss_service:system/bin/wcnss_service
     
 # Misc
 PRODUCT_COPY_FILES += \
