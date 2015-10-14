@@ -314,5 +314,6 @@ PRODUCT_COPY_FILES += \
     
 # Misc
 PRODUCT_COPY_FILES += \
+    vendor/bq/piccolo/proprietary/bin/adjust_serialno:system/bin/adjust_serialno \
     vendor/bq/piccolo/proprietary/bin/adjust_settings:system/bin/adjust_settings
     
