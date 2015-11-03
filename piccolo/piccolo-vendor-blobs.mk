@@ -147,17 +147,17 @@ PRODUCT_COPY_FILES += \
 # DRM
 PRODUCT_COPY_FILES += \
     vendor/bq/piccolo/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/bq/piccolo/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/bq/piccolo/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/bq/piccolo/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/bq/piccolo/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
-    vendor/bq/piccolo/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/bq/piccolo/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so
+    vendor/bq/piccolo/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so
 
 # GPS
 #PRODUCT_COPY_FILES += \
