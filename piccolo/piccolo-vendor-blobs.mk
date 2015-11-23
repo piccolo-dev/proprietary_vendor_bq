@@ -282,7 +282,7 @@ PRODUCT_COPY_FILES += \
 
 # Thermal
 PRODUCT_COPY_FILES += \
-    vendor/bq/piccolo/proprietary/bin/thermal-engine:system/bin/thermal-engine \
+    vendor/bq/piccolo/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/bq/piccolo/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so
 
