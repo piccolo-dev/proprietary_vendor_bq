@@ -51,9 +51,9 @@ PRODUCT_COPY_FILES += \
     vendor/bq/piccolo/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
     vendor/bq/piccolo/proprietary/lib/libarcsoft_beauty_shot.so:system/lib/libarcsoft_beauty_shot.so \
     vendor/bq/piccolo/proprietary/lib/libcam.meiyan.so:system/lib/libcam.meiyan.so \
-    vendor/bq/piccolo/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/bq/piccolo/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/bq/piccolo/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+    vendor/bq/piccolo/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/bq/piccolo/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libactuator_dw9761b_f13n05e_camcorder.so:system/vendor/lib/libactuator_dw9761b_f13n05e_camcorder.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libactuator_dw9761b_f13n05e_camera.so:system/vendor/lib/libactuator_dw9761b_f13n05e_camera.so \
@@ -105,6 +105,7 @@ PRODUCT_COPY_FILES += \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera2_is.so:system/vendor/lib/libmmcamera2_is.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:system/vendor/lib/libmmcamera2_pproc_modules.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera2_q3a_core.so:system/vendor/lib/libmmcamera2_q3a_core.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:system/vendor/lib/libmmcamera2_sensor_modules.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:system/vendor/lib/libmmcamera2_stats_algorithm.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
@@ -124,7 +125,6 @@ PRODUCT_COPY_FILES += \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
-    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
