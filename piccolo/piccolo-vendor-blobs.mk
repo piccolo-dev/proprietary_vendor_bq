@@ -260,7 +260,6 @@ PRODUCT_COPY_FILES += \
     vendor/bq/piccolo/proprietary/bin/radish:system/bin/radish \
     vendor/bq/piccolo/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/bq/piccolo/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/bq/piccolo/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
