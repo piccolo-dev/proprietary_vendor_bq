@@ -21,6 +21,8 @@ PRODUCT_PACKAGES += \
 
 # Prebuilt vendor/lib needed for compilation
 PRODUCT_PACKAGES += \
+    libloc_api_v02 \
+    libloc_ds_api \
     libtime_genoff
 
 $(call inherit-product, vendor/bq/piccolo/piccolo-vendor-blobs.mk)
