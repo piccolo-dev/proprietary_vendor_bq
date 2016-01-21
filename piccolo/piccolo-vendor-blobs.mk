@@ -48,7 +48,7 @@ PRODUCT_COPY_FILES += \
 # Camera
 PRODUCT_COPY_FILES += \
     vendor/bq/piccolo/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/bq/piccolo/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
+    vendor/bq/piccolo/proprietary/lib/hw/camera.vendor.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
     vendor/bq/piccolo/proprietary/lib/libarcsoft_beauty_shot.so:system/lib/libarcsoft_beauty_shot.so \
     vendor/bq/piccolo/proprietary/lib/libcam.meiyan.so:system/lib/libcam.meiyan.so \
     vendor/bq/piccolo/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
