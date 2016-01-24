@@ -271,7 +271,6 @@ PRODUCT_COPY_FILES += \
 
 # Touchscreen
 PRODUCT_COPY_FILES += \
-    vendor/bq/piccolo/proprietary/bin/init.atmel_ts.sh:system/bin/init.atmel_ts.sh \
     vendor/bq/piccolo/proprietary/etc/firmware/A4_15_2.2_AA.raw:system/etc/firmware/A4_15_2.2_AA.raw
 
 # Venus (media) firmware
