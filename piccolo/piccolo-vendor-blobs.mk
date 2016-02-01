@@ -49,11 +49,15 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/bq/piccolo/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/bq/piccolo/proprietary/lib/hw/camera.vendor.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
+    vendor/bq/piccolo/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
     vendor/bq/piccolo/proprietary/lib/libarcsoft_beauty_shot.so:system/lib/libarcsoft_beauty_shot.so \
+    vendor/bq/piccolo/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
+    vendor/bq/piccolo/proprietary/lib/libcam.beautyshot.so:system/lib/libcam.beautyshot.so \
     vendor/bq/piccolo/proprietary/lib/libcam.meiyan.so:system/lib/libcam.meiyan.so \
     vendor/bq/piccolo/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/bq/piccolo/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/bq/piccolo/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
+    vendor/bq/piccolo/proprietary/lib/libmpbase.so:system/lib/libmpbase.so \
     vendor/bq/piccolo/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libactuator_dw9761b_f13n05e_camcorder.so:system/vendor/lib/libactuator_dw9761b_f13n05e_camcorder.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libactuator_dw9761b_f13n05e_camera.so:system/vendor/lib/libactuator_dw9761b_f13n05e_camera.so \
