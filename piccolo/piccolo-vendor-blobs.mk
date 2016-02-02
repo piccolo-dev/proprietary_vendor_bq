@@ -227,6 +227,7 @@ PRODUCT_COPY_FILES += \
 # Perf
 PRODUCT_COPY_FILES += \
     vendor/bq/piccolo/proprietary/bin/perfd:system/bin/perfd \
+    vendor/bq/piccolo/proprietary/lib/modules/core_ctl.ko:system/lib/modules/core_ctl.ko \
     vendor/bq/piccolo/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so
 
 # Postprocessing
