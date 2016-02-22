@@ -116,8 +116,6 @@ PRODUCT_COPY_FILES += \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera2_vpe_module.so:system/vendor/lib/libmmcamera2_vpe_module.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera2_wnr_module.so:system/vendor/lib/libmmcamera2_wnr_module.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
-    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
-    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_hdr_lib.so:system/vendor/lib/libmmcamera_hdr_lib.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_imx214_f13n05e_eeprom.so:system/vendor/lib/libmmcamera_imx214_f13n05e_eeprom.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_imx214_f13n05e.so:system/vendor/lib/libmmcamera_imx214_f13n05e.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_imx214_olqba15_eeprom.so:system/vendor/lib/libmmcamera_imx214_olqba15_eeprom.so \
@@ -135,6 +133,11 @@ PRODUCT_COPY_FILES += \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/bq/piccolo/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so
+
+# Camera (https://github.com/TheMuppets/proprietary_vendor_wileyfox/tree/132e365aae0bc2add714e7b1e193cef530e398ca/kipper)
+PRODUCT_COPY_FILES += \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_hdr_lib.so:system/vendor/lib/libmmcamera_hdr_lib.so
 
 # Camera firmware
 PRODUCT_COPY_FILES += \
