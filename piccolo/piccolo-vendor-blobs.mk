@@ -273,7 +273,7 @@ PRODUCT_COPY_FILES += \
 
 # Sensors
 PRODUCT_COPY_FILES += \
-    vendor/bq/piccolo/proprietary/bin//sensord:system/bin/sensord \
+    vendor/bq/piccolo/proprietary/bin/sensord:system/bin/sensord \
     vendor/bq/piccolo/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so
 
 # Thermal
